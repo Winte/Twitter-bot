@@ -3,11 +3,9 @@ import time
 
 print("this is my twitter bot")
 
-# credentials to login to twitter api
-CONSUMER_KEY = ''
-CONSUMER_SECRET = ''
-ACCESS_KEY = ''
-ACCESS_SECRET = ''
+# NOTE: I put my keys in the keys.py to separate them from this main file.
+
+from keys import *
 
 # login to twitter account api
 auth = tp.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)

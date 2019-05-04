@@ -1,0 +1,5 @@
+# credentials to login to twitter api
+CONSUMER_KEY = 'XXXXXX'
+CONSUMER_SECRET = 'XXXXXX'
+ACCESS_KEY = 'XXXXXX'
+ACCESS_SECRET = 'XXXXXX'
